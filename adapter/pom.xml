@@ -7,9 +7,10 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.5.1</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <version>3.3.3</version>
+        <relativePath/>
     </parent>
+
     <groupId>ar.edu.undec</groupId>
     <artifactId>adapter</artifactId>
     <version>1.0.0</version>
@@ -63,4 +64,5 @@
             </plugin>
         </plugins>
     </build>
+
 </project>

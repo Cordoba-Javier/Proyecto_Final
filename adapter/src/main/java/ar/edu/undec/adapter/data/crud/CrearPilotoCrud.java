@@ -4,9 +4,8 @@ import ar.edu.undec.adapter.data.entityData.PilotoEntityData;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import java.util.UUID;
 
 @Repository
-public interface CrearPilotoCrud extends CrudRepository<PilotoEntityData, UUID> {
+public interface CrearPilotoCrud extends CrudRepository<PilotoEntityData, String> {
     boolean existsPiloto(String name);
 }

@@ -1,10 +1,11 @@
 package ar.edu.undec.adapter.data.entityData;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import piloto.modelo.Piloto;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+
 import java.util.UUID;
 @Entity(name="piloto")
 public class PilotoEntityData {
